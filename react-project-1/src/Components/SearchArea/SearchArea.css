@@ -1,0 +1,78 @@
+.page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url("C:\Users\dasch\OneDrive\Desktop\Oxcytech Tasks\react-projrct-1\src\images\SearchBG.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 24vh;
+    padding-bottom: 6vh;
+}
+
+.search div{
+    display: flex;
+    align-items: baseline;
+}
+
+.search>i{
+    font-size: 4rem;
+    color: #ff5a5f;
+}
+
+.search h1{
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.inpt{
+    max-height: 40px;
+    align-items: baseline;
+    color: black;
+    background-color: white;
+    padding: 5px ;
+}
+
+.inpt>p{
+    font-weight: 400;
+    padding-inline: 5px;
+}
+
+input{
+    padding-right: 80px;
+    border: none;
+}
+
+input::placeholder{
+    font-size: smaller;
+}
+
+#lftbodr{
+    border-left:2px solid rgba(0, 0, 0, 0.2);
+}
+#fade{
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    color: gray;
+    font-size: small;
+    font-weight: 100;
+}
+
+.fa-magnifying-glass{
+    padding:0.5rem  1rem;
+    margin-left: 2px;
+    color: white;
+    background-color:#ff5a5f;
+}
+
+.types{
+    gap: 1rem;
+    font-size: smaller;
+}

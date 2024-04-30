@@ -1,0 +1,62 @@
+.dash{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #5ccaeb;
+    color: white;
+}
+.row{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #f4f5fa;
+    padding-inline: 2rem;
+
+}
+
+.line{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+   
+}
+
+.butns{
+    display: flex;
+    padding-right: 50px;
+    gap:1rem;
+}
+
+.butns a{
+    padding: 6px 10px;
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 8px;
+}
+
+
+.item{
+    background-color: white;
+    width: max(300px, 30%);
+    border-radius: 10px;
+}
+
+.bl{
+    background-color: #5ccaeb;
+}

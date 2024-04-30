@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #f4f5fa;
+  height: 200vh;
+}
+
+@media (width<=549px) {
+  .app .inpt input{
+    width: 40px;
+  }
+
+  .app *{
+    gap: 0.5rem;
+  }
+
+  .app aside{
+    position: absolute;
+  }
+}

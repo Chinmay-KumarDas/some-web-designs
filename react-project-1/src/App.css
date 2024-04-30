@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.heading1 i{
+  font-size: larger;
+  color: #ff5a5f;
+  padding: 0.5rem;
+  border: 1px solid #ff5a5f;
+  border-radius: 50%;
+}
+
+.heading1 h1{
+  font-weight: 400;
+}
+
+.heading1 h4{
+  font-weight: 400;
+  color: gray;
+}
+
+@media (width <= 530px) {
+
+  .page .inpt input{
+    padding-right: 0;
+  }
+
+  .heading1{
+    font-size: small;
+  }
+  
+  .page .search h1{
+    font-size: large;
+  }
+
+  nav h2{
+    font-size: medium;
+  }
+
+  nav .navItems{
+    gap:4px;
+
+    font-size: x-small;
+  }
+
+  #fade span{
+    display: none;
+  }
+
+  .page .search .types{
+    font-size: x-small;
+  }
+}

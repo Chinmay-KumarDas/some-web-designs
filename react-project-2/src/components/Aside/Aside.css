@@ -1,0 +1,70 @@
+aside{
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+    width: clamp(170px, 20%,  300px);
+    height: 100vh;
+    background-image:linear-gradient(rgba(130,177,63,0.8),
+    rgba(130,177,63, 0.8)), url(../../images/photo-1547595964-00ce56a24b66.avif);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+aside h2{
+    font-size: large;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+
+
+hr{
+    margin-inline: 4%;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+
+.opt{
+    padding: 15px 5px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 20px;
+    border-radius: 4px;
+    margin-inline: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.opt img{
+    width: 30px;
+    border-radius: 15px;
+}
+
+aside .fa-caret-down{
+    position: absolute;
+    right: 1rem;
+    font-size: small;
+}
+
+.selected{
+    background-color: #ffffff35;
+}
+
+aside>a{
+    display: flex;
+    padding: 10px 40px;
+    padding-left: 20px;
+    margin-left: 20px ;
+    gap: 1rem;
+    border-radius: 10px;
+    align-items: baseline;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}

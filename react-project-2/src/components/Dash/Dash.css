@@ -1,0 +1,17 @@
+.dash{
+    background-color: #f7f7f9;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: start;
+    flex-wrap: wrap;
+}

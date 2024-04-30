@@ -1,0 +1,102 @@
+aside{
+    position: sticky;
+    top: 0; 
+    z-index: 2;
+    width: clamp(170px, 20%,  240px);
+    height: 100vh;
+    background-color: white;
+    color:black;
+}
+
+aside h2{
+    font-size: large;
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 10px;
+}
+
+
+.opt{
+    padding: 10px 5px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 20px;
+    border-radius: 4px;
+    margin-inline: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.opt img{
+    width: 30px;
+    border-radius: 15px;
+}
+
+aside .fa-angle-right, aside .fa-angle-down{
+    position: absolute;
+    right: 1rem;
+    font-size: small;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+.selected{
+    background-color: #00000013;
+}
+
+
+.subsec{
+    margin-left: 30px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+hr{
+    margin-inline: 4%;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+aside h6{
+    margin: 6px 30px ;
+    color: gray;
+}
+
+aside .blue{
+    color: blue;
+}
+
+#oreng{
+    color: orange;
+}
+
+aside .lightBlue{
+    color: rgb(25, 197, 254);
+}
+
+#pink{
+    color: rgb(249, 132, 152);
+}
+
+#purple{
+    color: blueviolet;
+}
+
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+}

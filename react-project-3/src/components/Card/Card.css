@@ -1,0 +1,64 @@
+.card{
+    width: clamp(200px, 24%, 260px);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.card h4{
+    color: gray;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.flex h4{
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex i{
+    padding: 20px;
+    font-size: 2.5rem;
+    color: red;
+}
+
+
+.card hr{
+    margin-top: 5px;
+}
+
+#second .flex i{
+    color: orange;
+}
+
+#third .flex i{
+    color: green;
+}
+
+#forth .flex i{
+    color: blue;
+}
+.flex p{
+    font-size: x-large;
+    text-align: right;
+    color: black;
+    font-weight: 500;
+}
+
+.foot{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 1rem;
+    color: gray;
+}
+
+.foot i{
+    color: green;
+    font-size: small;
+}
+

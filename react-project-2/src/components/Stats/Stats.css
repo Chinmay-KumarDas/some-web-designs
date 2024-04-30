@@ -1,0 +1,23 @@
+.stats{
+    display: flex;
+    gap: 2rem;
+    background-color: transparent;
+    padding-inline: 2rem;
+    flex-wrap: wrap;
+}
+
+.stats img{
+    padding: 0.5rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stats>div{
+    background-color: white;
+}
+
+.user{
+    width: 675px;
+    min-width: 300px;
+}
+

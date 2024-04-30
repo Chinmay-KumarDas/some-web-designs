@@ -1,0 +1,18 @@
+.explore{
+    width: 100%;
+
+    border-top: 1px dashed gray;
+}
+
+.explore h1{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: larger;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.explore h1 span{
+    margin-left: 4px
+}

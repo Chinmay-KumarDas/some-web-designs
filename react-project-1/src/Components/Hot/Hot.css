@@ -1,0 +1,13 @@
+.hot{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.cards{
+    display: flex;
+    gap: 2rem 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}

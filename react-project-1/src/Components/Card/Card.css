@@ -1,0 +1,76 @@
+.card{
+    width: 320px;
+    color: gray;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding: 4px;
+    font-size: small;
+}
+
+.top img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+.top{
+    position: relative;
+}
+
+.top p{
+    position: absolute;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    color: white;
+}
+
+#up{
+    top:1rem;
+    left: 1rem;
+}
+
+#down-left{
+    bottom: 1rem;
+    left: 1rem;
+    color: #73cf42;
+}
+
+#down-right{
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#state{
+    color: #73cf42;
+}
+
+#origin{
+    color: red;
+}
+
+.card h3{
+    font-weight: 400;
+}
+
+.card h3 i{
+    font-size: medium;
+    color: #40b3ef;
+}
+
+.starts i{
+    color: #73cf42;
+    font-size: smaller;
+    align-items: center;
+    margin: 4px 0;
+}
+
+.starts span{
+    padding: 0 4px;
+    color: white;
+    background-color: #73cf42;
+    margin-left: 2px;
+}

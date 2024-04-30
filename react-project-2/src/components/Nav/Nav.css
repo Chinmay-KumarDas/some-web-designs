@@ -1,0 +1,23 @@
+nav, nav div{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+
+}
+
+nav>div>div{
+    gap:4px;
+}
+
+nav{
+    justify-content: space-between;
+    padding:0.5rem 2rem;
+    color: gray;
+    width: 100%;
+    background-color: white;
+}
+
+.inpt>input{
+    border: none;
+    width: 60px;
+}

@@ -1,0 +1,49 @@
+.global{
+    margin-inline: 2rem;
+    background-color: white;
+}
+
+.heading{
+    color: gray;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.heading h2{
+    font-weight: 450;
+}
+
+.heading h5{
+    font-weight: 300;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap-reverse ;
+}
+
+.info ul{
+    width: 48%;
+    min-width: 300px;
+    padding-top: 1rem;
+    list-style-type: none;
+}
+
+.info img{
+    width:48% ;
+    object-fit: contain;
+}
+
+.info li{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding:1rem;
+    border-top: 1px solid gray;
+
+}
+
+li .flag{
+    width: 25px;
+    border-radius: 2px;
+
+}

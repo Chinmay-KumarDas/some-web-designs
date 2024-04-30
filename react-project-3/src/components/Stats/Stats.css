@@ -1,0 +1,55 @@
+.stats{
+    display: flex;
+    gap: 2rem;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stats img{
+    padding: 0.5rem;
+    object-fit: cover;
+    height: 80%;
+}
+
+.stats>div{
+    border-radius: 15px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.heading{
+    padding: 1rem;
+    color: black;
+}
+
+.last{
+    background-color: #1b2b4c;
+}
+
+.user{
+
+    background-color: white;
+    color: black;
+}
+
+
+
+.heading h5{
+    color: gray;
+}
+
+.this{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.this a{
+    max-height: 40px;
+}
+
+#month{
+    background-color: #6274da;
+    color: white;
+}
