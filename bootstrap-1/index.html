@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://kit.fontawesome.com/aeb1ef5e2a.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="vh-100">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand">
+                <i class="fas fa-wand-magic-sparkles"></i>
+                <span>YellowPro</span>
+            </a>
+            
+
+            <div class="d-flex">
+                <a href="" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>Sign in</span>
+                </a>
+
+                <a href="" class="nav-link btn btn-outline-light">
+                    <i class="fas fa-plus"></i>
+                    <span>Add Listing</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="landing-page">
+        <h1>Take Your Local Business Online with YellowPro</h1>
+        <h5>Let's uncover the best place to eat, drink, and shop nearest to you.</h5>
+
+        <!-- <form class="form">
+            <div class="input-group">
+                <label for="what" class="input-group-text bg-light">
+                    What
+                </label>
+                <input id ="what" type="text" class="input-control" placeholder="Ex: food, service, barber, hotel">
+                <label for="where" class="input-group-text bg-light">
+                    Where  <i class="fa-solid fa-location-crosshairs"></i>
+                </label>
+                <input id ="where"type="text" class="input-control" placeholder="your City...">
+                <a class="input-group-text btn btn-warning"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </form> -->
+
+        <form class="form">
+            <div class="d-flex">
+                <label for="what" class="input-group-text bg-light">
+                    What
+                </label>
+                <input id="what" type="text" class="form-control" placeholder="Ex: food, service, barber, hotel">
+                <label for="where" class="input-group-text bg-light">
+                    Where <i class="fas fa-location-crosshairs"></i>
+                </label>
+                <input id="where" type="text" class="form-control" placeholder="Your City...">
+                <button type="button" class="btn btn-warning">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </form>
+
+        <h6>Just looking around? Let us suggest you <br>
+            something hot & happening!
+        </h6>
+
+        <div class="row gx-5 gy-1">
+            <div class="col">
+                <i class="fa-solid fa-brush"></i>
+                <p>Art & <br> Entertainment</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-car"></i>
+                <p>Automotive</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-wine-glass"></i>
+                <p>Bars</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-spa"></i>
+                <p>Beauty & Spa</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-mountain-sun"></i>
+                <p>Landscraping<br> Service</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="social">
+        <div class="myrow">
+                <img src="/images/Screenshot 2024-02-08 141750.png" alt="">
+                <img src="images/Screenshot 2024-02-08 141811.png" alt="">
+                <img src="images/Screenshot 2024-02-08 141833.png" alt="">
+        </div>
+    </div>
+
+    <div class="container" id="Featured">
+        <h2>Featured Business</h2>
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="top">
+                        <img src="https://www.whiskaffair.com/wp-content/uploads/2020/10/Veg-Hakka-Noodles-2-3.jpg" class="card-img"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p>
+                        <p id="down-left">$$$$</p>
+                    </div>
+        
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>La Famiglia GiorgioOs <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+        
+                        <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                            Boston
+                        </p>
+                    </div>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+        
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="top">
+                        <img src="https://www.whiskaffair.com/wp-content/uploads/2020/10/Veg-Hakka-Noodles-2-3.jpg" class="card-img"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p>
+                        <p id="down-left">$$$$</p>
+                    </div>
+        
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>La Famiglia GiorgioOs <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+        
+                        <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                            Boston
+                        </p>
+                    </div>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+        
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="top">
+                        <img src="https://www.whiskaffair.com/wp-content/uploads/2020/10/Veg-Hakka-Noodles-2-3.jpg" class="card-img"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p>
+                        <p id="down-left">$$$$</p>
+                    </div>
+        
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>La Famiglia GiorgioOs <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+        
+                        <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                            Boston
+                        </p>
+                    </div>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+        
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="Categories">
+        <h2>Featured Categories</h2>
+        <div class="row row-cols-md-4 row-cols-2 g-2">
+            <div class="col">
+
+                <div>
+                    <i class="fa-solid fa-brush"></i>
+                    <p>Art & Entertainment</p>
+                </div>
+                
+            </div>
+            <div class="col">
+
+                <div>
+                    <i class="fa-solid fa-car"></i>
+                    <p>Automotive</p>
+                </div>
+                
+            </div>
+            <div class="col">
+
+                <div>
+                    <i class="fa-solid fa-wine-glass"></i>
+                    <p>Bars</p>
+                </div>
+                
+            </div>
+            <div class="col">
+
+                <div>
+                    <i class="fa-solid fa-spa"></i>
+                    <p>Beauty & Spa</p>
+                </div>
+                
+            </div>
+            <div class="col">
+                <div>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <p>Landscraping Service</p>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <p>Health & Medical</p>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <p>Restaurant</p>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <i class="fa-solid fa-building-circle-check"></i>
+                    <p>Real Estate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Restaurant">
+
+        <div>
+            <h2>Featured Restaurant</h2>
+
+            <div>
+                <div class="card">
+                    <div class="top">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3FjPss4M8HJR7nkxFHon_iUKbDSFqS0JkWg&usqp=CAU"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p> 
+                    </div>
+                <div class="inner">
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>Da Vinci <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+                    </div>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        162 Columbus Ave
+                    </p>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="top">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3FjPss4M8HJR7nkxFHon_iUKbDSFqS0JkWg&usqp=CAU"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p> 
+                    </div>
+                <div class="inner">
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>Da Vinci <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+                    </div>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        162 Columbus Ave
+                    </p>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="top">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3FjPss4M8HJR7nkxFHon_iUKbDSFqS0JkWg&usqp=CAU"/>
+                        <p id="up"><i class="fa-regular fa-heart"></i></p> 
+                    </div>
+                <div class="inner">
+                    <div class="flex">
+                        <p id="origin">ITALIAN</p>
+        
+                        <p id="state"><i class="fa-regular fa-clock"></i> Open Now</p>
+                    </div>
+        
+                    <h3>Da Vinci <i class="fa-solid fa-circle-check"></i></h3>
+        
+                    <p>Italian</p>
+        
+                    <div class="flex">
+                        <p class="flex starts"> 
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                        <span>5.0</span>
+                        </p>
+                    </div>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        162 Columbus Ave
+                    </p>
+        
+                    <div class="flex">
+                            <a class="btn btn-secondery"><i class="fa-solid fa-phone"></i> Call</a>
+                            <a class="btn btn-secondery"><i class="fa-solid fa-map-pin"></i> Show Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+
+        <aside>
+            <img src="/images/Screenshot 2024-02-08 174628.png" alt="">
+        </aside>
+    </div>
+</body>
+</html>
