@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aeb1ef5e2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const menuButton = document.getElementById("menuButton");
+        const aside = document.querySelector("aside");
+        const dashBoard = document.querySelector('.row');
+
+        menuButton.addEventListener("click", function () {
+        aside.classList.toggle("show-aside");
+        });
+
+        dashBoard.addEventListener("click", () =>{
+            if(aside.classList.contains("show-aside"))
+                aside.classList.remove("show-aside");
+        } );
+
+});
+
+    </script>
+
+    <aside>
+        <h2><i class="fa-brands fa-react"></i> Performance Pro</h2>
+        <hr>
+
+        <div class="options">
+            <div class="opt selected" >
+                <i class="fa-solid fa-house"></i>
+                <p>Dashboard</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-solid fa-user"></i>
+                <p>User Profile</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-regular fa-clipboard"></i>
+                <p>Table List</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-regular fa-file-lines"></i>
+                <p>Typography</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-solid fa-icons"></i>
+                <p>Icons</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Maps</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-solid fa-bell"></i>
+                <p>Notifications</p>
+            </div>
+            <div class="opt" >
+                <i class="fa-solid fa-globe"></i>
+                <p>RTL Support</p>
+            </div>
+        </div>
+
+        <a href="" class="selected"><i class="fa-solid fa-circle-up"></i> <p>Upgrade to PRO</p></a>
+    </aside>
+
+    <section>
+        <nav>
+            <div>
+                <button   button id="menuButton"><i class="fa-solid fa-bars"></i></button>
+
+                <p>Dashboard</p>
+            </div>
+            <div class="navItms">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <i class="fa-brands fa-windows"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="card" id="first">
+
+                <div class="flex" >
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <div>
+                        <h4>Used Space</h4>
+                        <p>49/50 <br> GB</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="foot">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h4>Get more space</h4>
+                </div>
+            </div>
+           
+            <div class="card" id="secnd">
+
+                <div class="flex">
+                    <i class="fa-solid fa-shop"></i>
+                    <div>
+                        <h4>Revenue</h4>
+                        <p>$34,245</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="foot">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h4>Last 34 hours</h4>
+                </div>
+            </div>
+
+            <div class="card" id="third">
+
+                <div class="flex">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <div>
+                        <h4>Fixed issues</h4>
+                        <p>75</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="foot">
+                    <i class="fa-solid fa-tag"></i>
+                    <h4>Tracks from Github</h4>
+                </div>
+            </div>
+            <div class="card" id="fourth">
+
+                <div class="flex">
+                    <i class="fa-solid fa-person"></i>
+                    <div>
+                        <h4>Followers</h4>
+                        <p>+245</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div class="foot">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Just Updated</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="graph">
+            <div class="card">
+                <img src="/images/Screenshot 2024-01-30 152222.png" alt="">
+                <p>Daily Sales</p>
+                <h4><span><i class="fa-solid fa-arrow-up"></i>50%</span>increase in today sales</h4>
+                <hr>
+                <div class="foot">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>updated 4 minutes ago</h4>
+                </div>
+            
+            </div>
+            <div class="card">
+                <img src="/images/Screenshot 2024-01-30 152307.png" alt="">
+                <p>Daily Sales</p>
+                <h4><span><i class="fa-solid fa-arrow-up"></i>50%</span>increase in today sales</h4>
+                <hr>
+                <div class="foot">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>updated 4 minutes ago</h4>
+                </div>
+            
+            </div>
+            <div class="card">
+                <img src="/images/Screenshot 2024-01-30 152327.png" alt="">
+                <p>Daily Sales</p>
+                <h4><span><i class="fa-solid fa-arrow-up"></i>50%</span>increase in today sales</h4>
+                <hr>
+                <div class="foot">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>updated 4 minutes ago</h4>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <div class="row" id="big">
+            <div class="card">
+                <div class="top">
+                    <p>Tasks:</p>
+                    <p class="selected"><i class="fa-solid fa-bug"></i> BUGS</p>
+                    <p>&#x003C; &#x003E; WEBSITE</p>
+                    <p>
+                        <i class="fa-solid fa-cloud"></i>
+                        SERVER    
+                    </p>
+                </div>
+
+                <div class="item">
+                    <div>
+                        <input type="checkbox" name="check1">
+                        <label for="ckeck1">Sign contract for "What are conference organizers afraid of?"</label>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen purple"></i>
+                        <i class="fa-solid fa-xmark red"></i>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div>
+                        <input type="checkbox" id="check2">
+                        <label for="ckeck2">Lines From Great Russian Literature? Or E-mails From My Boss?</label>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen purple"></i>
+                        <i class="fa-solid fa-xmark red"></i>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div>
+                        <input type="checkbox" id="check3">
+                        <label for="ckeck3">Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit</label>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-pen purple"></i>
+                        <i class="fa-solid fa-xmark red"></i>
+                    </div>
+                  
+                </div>
+            </div>
+            
+            <div class="card" id="emp">
+                <div class="top">
+                    <p>Employee Stats</p>
+                    <h4>New employees</h4>
+                </div>
+
+                <div class="item" id="head">
+                    <p>ID</p>
+                    <p>Name</p>
+                    <p>Salary</p>
+                    <p>Country</p>
+                </div>
+                <div class="item">
+                    <p>1</p>
+                    <p>Dokta </p>
+                    <p>$ 36,738</p>
+                    <p>Niger</p>
+                </div>
+                <div class="item">
+                    <p>2</p>
+                    <p>Miner </p>
+                    <p>$ 23,789</p>
+                    <p>India</p>
+                </div>
+                <div class="item">
+                    <p>3</p>
+                    <p>Sage</p>
+                    <p>$ 56,142</p>
+                    <p>Iran</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,188 @@
+
+
+.wapper{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url(https://img.freepik.com/free-photo/black-white-photo-muscular-build-man-using-sports-chalk-hands-while-weightlifting-gym_637285-2509.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 115vh;
+}
+
+.App{
+  
+  min-height: 100vh;
+  color: white;
+
+}
+
+nav{
+  width: 100%;
+  position: relative;
+}
+nav a{
+  color: rgb(202, 202, 202);
+}
+
+span{
+  color: #f5634b;
+}
+
+.branding{
+  margin-right: 2rem;
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: 'Antonio';
+}
+
+.phone{
+  color: #f5634b;
+  font-size: larger;
+  text-align: right;
+  position: absolute;
+  right: 2rem;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+main{
+  padding-left: 4rem;
+  padding-top: 6rem;
+}
+
+main h1{
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Antonio';
+  margin: 2rem 0 3rem;
+}
+
+main h4{
+  font-weight: 50;
+  font-size: x-small;
+  border: 2px solid white;
+  display:inline;
+  padding: 0.4rem 0.6rem;
+  letter-spacing: 4px;
+  
+}
+
+.btn{
+  background: rgb(245,99,75);
+  background: linear-gradient(90deg, rgba(245,99,75,1) 30%, rgba(254,148,25,1) 100%);
+  padding: 1rem 2rem;
+  border-radius: 0;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+main .btn{
+  margin-bottom: 100px;
+}
+
+.btn:hover{
+  background: #fe9419;
+}
+
+
+
+.cardIndex{
+  color: rgba(128, 128, 128, 0.17);
+  position: absolute;
+  font-size: 10rem;
+  font-weight: 400;
+  top: -140px;
+  z-index: 0;
+}
+
+.cardHead{
+  padding-top: 30px;
+  font-size: xX-large;
+  font-weight:600;
+  font-family: 'Antonio';
+  color: black;
+}
+.link{
+  text-align: center;
+  width: 100%;
+}
+
+.cardcont{
+  padding: 1rem;
+}
+
+footer{
+  background-color: #181a23;
+  color: rgb(199, 199, 199);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+footer h1, footer h3{
+  color: white;
+  font-family: 'Antonio';
+}
+
+.fade{
+  color: gray;
+  font-size: small;
+}
+
+.foot{
+  background-color: black;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 6rem;
+}
+
+.cardImg{
+  height: 200px;
+}
+
+.pop{
+  min-height: 100vh;
+  background-color: #f0f2f4;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.pop .btn{
+  margin-inline: auto;
+  color: #f0f2f4;
+  margin-top: 40px;
+}
+.pop h2{
+  color: #181a23;
+}
+
+.pop h2, .pop p{
+  text-align: center;
+  font-family: 'Antonio';
+}
+
+hr{
+  margin: 100px;
+  border: #f5634b 2px solid;
+  width: 50px;
+  margin-inline: auto;
+  margin-bottom: 0;
+
+}
+
+
+@media (width<=720px) {
+  .navItems{
+    display: none;
+  }
+
+  main{
+    padding-left: 1rem;
+  }
+
+  .foot{
+    margin: 4PX;
+    padding: 6PX 12PX;
+  }
+}
